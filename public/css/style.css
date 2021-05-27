@@ -1,0 +1,23 @@
+.boton_seleccion {
+    width: 50%;
+    color: #0099CC; /* Color del texto */
+    background-color: transparent; /* Fondo dentro del botón */ 
+    border: 2px solid #0099CC; /* Grosor del contorno */ 
+    border-radius: 5px; /* Curvas en los bordes */  
+    text-transform: uppercase; /* Mayúsculas */
+  
+}
+
+.boton_seleccion:hover {
+    color: #07b9f5; 
+    box-shadow: 0 5px 15px #d0c8ee; 
+}
+
+.boton_seleccion:focus {
+    background-color: #0099CC;
+    color: #ffffff;
+}
+
+
+
+
