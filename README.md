@@ -1,5 +1,7 @@
 ## Cómo correr el proyecto
 
+Primero que todo, asegurarse de que el proyecto esté en la carpeta *xampp\htdocs*.
+
 1. Abrir XAMPP y activar Apache y MySQL.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="img/xampp.jpg" width="400"></a></p>
@@ -19,4 +21,4 @@
 php artisan migrate
 php artisan serve
 ```
-6. Estos comandos crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en *localhost:8000*.
+6. Estos comandos crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
