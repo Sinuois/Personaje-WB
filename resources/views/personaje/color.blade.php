@@ -4,7 +4,7 @@
 <div class="form-group col-sm-6" style="margin: auto; width: 60%;">
     <form id="form_botones" action="/personaje/seleccionar_clase" method="GET">
         <div class="form-group col-sm-12">
-            <h1 style="text-align: center;">¡Crea tu personaje canino!</h1>
+            <h1 style="text-align: center;">¡Hola, {{strtok(Auth::user()->name, " ")}}! ¡Crea tu personaje canino!</h1>
             <h4 style="text-align: center;">Selecciona el color del pelaje de tu personaje</h4>
             <input type="hidden" id="color_personaje" name="color_personaje">         
             <input type="hidden" class="form-control" id="nombre_personaje" name="nombre_personaje" value={{$nombre_personaje}} required>

@@ -6,7 +6,7 @@
         @csrf 
 
         <div class="form-group col-sm-12">
-            <h1 style="text-align: center;">¡Crea tu personaje canino!</h1>
+            <h1 style="text-align: center;">¡Hola, {{strtok(Auth::user()->name, " ")}}! ¡Crea tu personaje canino!</h1>
             <h4 style="text-align: center;">Selecciona la clase de tu personaje</h4>
             <input type="hidden" class="form-control" id="clase_personaje" name="clase_personaje" placeholder="Clase" required>
             <input type="hidden" class="form-control" id="nombre_personaje" name="nombre_personaje" value={{$nombre_personaje}} required>
