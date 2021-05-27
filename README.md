@@ -22,3 +22,16 @@ php artisan migrate
 php artisan serve
 ```
 6. Estos comandos crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
+
+## Ejecutar pruebas
+
+En el proyecto hay dos pruebas, presentes en *tests/Feature/PersonajeModuleTest.php*:
+
+1. Una prueba que analiza si un personaje se puede ver estando autenticado.
+
+2. Una prueba que analiza si existe redirección en caso de intentar acceder a la vista de personaje sin estar autenticado.
+
+Para ejecutar estas pruebas se debe ingresar el comando:
+```
+vendor\bin\phpunit
+```
