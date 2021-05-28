@@ -24,11 +24,11 @@ Primero que todo, asegurarse de que el proyecto esté en la carpeta *xampp\htdoc
 ```
 composer install
 copy NUL .env
-cp .env.example .env
+copy .env.example .env
 php artisan migrate
 php artisan serve
 ```
-6. Estos comandos instalarán los paquetes correspondientes, crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
+6. Estos comandos instalarán los paquetes correspondientes, crearán el archivo .env, copiará el contenido de .env.example en .env, crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
 
 ## Ejecutar pruebas
 
