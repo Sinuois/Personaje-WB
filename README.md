@@ -22,6 +22,7 @@ Primero que todo, asegurarse de que el proyecto esté en la carpeta *xampp\htdoc
 
 5. Dentro del proyecto, ejecutar los siguientes comandos:
 ```
+composer install
 php artisan migrate
 php artisan serve
 ```
