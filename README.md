@@ -1,3 +1,7 @@
+## Framework utilizado
+
+Este proyecto fue desarrollado mediante Laravel 7.30.4.
+
 ## Cómo correr el proyecto
 
 Primero que todo, asegurarse de que el proyecto esté en la carpeta *xampp\htdocs*.
