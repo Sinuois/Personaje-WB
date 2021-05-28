@@ -26,7 +26,7 @@ composer install
 php artisan migrate
 php artisan serve
 ```
-6. Estos comandos crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
+6. Estos comandos instalarán los paquetes correspondientes, crearán las tablas y ejecutarán el proyecto, respectivamente. Luego, éste estará disponible en el navegador mediante el enlace *localhost:8000*.
 
 ## Ejecutar pruebas
 
